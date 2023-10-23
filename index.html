@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Exercise Two</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="bigContainer">
+      <div class="titleDesc">
+        <h1>DOM exercise Three</h1>
+        <p>
+          Task: Extract all of the names and ages 
+          of the students and create an XHTML table.
+        </p>
+      </div>
+      <div class="container">
+        <div class="left">
+          <button onclick="extractData();">Add Data To Table</button>
+          <button onclick="removeData();">Remove Data From Table</button>
+  
+          <table class="studentTable">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+              </tr>
+            </thead>
+            <tbody id="studentTableBody">
+              <tr>
+                <td>N/A</td>
+                <td>N/A</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="right">
+          <h3>Image of the XML data</h3>
+          <img class="image" src="XML_table.png">
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
