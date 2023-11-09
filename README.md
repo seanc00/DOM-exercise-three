@@ -4,5 +4,6 @@ Part 3 of a part 4 series in assesments. This time, extract names and ages of st
 
 TO BE MARKED 
 - Extracts data from xml sheet and pllaces it into a table
+
 EXTRAS
 - Can empty data from table to re-add xml data back in again, DOM manipulation also prevents the table from being duplicating data.
